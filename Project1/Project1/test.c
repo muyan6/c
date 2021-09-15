@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-//int main()
+//int main() 初学
 //{
 //	int people = 100;
 //		people = people + 1
@@ -17,7 +17,7 @@
 //			printf("%d",sum);
 //			return 0;
 //}
-//int main()
+//int main()   乘法运算
 //{
 //	int a = 10;
 //	int b = 6;
@@ -28,7 +28,7 @@
 //		printf("%d", sum);
 //		return 0;
 //}
-//int main()
+//int main()  加法运算
 //{
 //	int a = 0;
 //	int d= 0;
@@ -42,7 +42,7 @@
 //
 //	return 0;
 //}
-//enum sb
+//enum sb   枚举函数 
 //{
 //	dsb,
 //	xsb,
@@ -65,18 +65,36 @@
 //	printf("%d", n);
 //		return 0;
 //}
-enum age
-{
-	san,
-	er,
-	yi,
-};
+//enum age  枚举函数
+//{
+//	san,
+//	er,
+//	yi,
+//};
+//int main()    打印字符串  \0代表终止
+//{
+//	char arr[] = { 'a','b' ,'\0'};  分开打印要加\0
+//	char arr1[] = "abc";
+//	printf("%s\n", arr1);
+//		
+//	printf("%s", arr);
+//	return 0;
+//}
+//int main()  /*ASCII表*/
+//{
+//	printf("%d",'\143');\加八进制数字代表一个字符
+//	return
+//		0;
+//}复习一下加法
 int main()
 {
-	char arr[] = { 'a','b' ,'\0'};
-	char arr1[] = "abc";
-	printf("%s\n", arr1);
-		
-	printf("%s", arr);
+	int a = 1;
+	int b = 4;
+	int n = 4;
+	printf("请输入两个数字");
+	scanf("%d %d", &a, &b);
+	n = a + b;
+	printf("%d", n);
+
 	return 0;
 }
