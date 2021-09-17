@@ -124,17 +124,72 @@
 //	return 0;
 ////}
 //循环语句
-int main()
-
+//int main()
+//
+//{
+//	int n = 0;
+//	while (n < 100)
+//	{
+//		printf("加油\n");
+//		n++;
+//	}
+//	if (n == 100)
+//	{
+//		printf("成功");
+//	}
+//	return 0; }
+//初识函数
+//int add(int x,int y,int f)
+//{
+//	int z = 0;
+//	z = x * y+f;
+//	return z;
+//}
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	int c = 0;
+//	scanf("%d %d %d", &a, &b,&c);
+//	int ji = add(a, b,c);
+//	printf("%d", ji);
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 1;
+//	while (a<100)
+//	{
+//		printf("继续加油\n");
+//		a++;
+//	}
+//	if (a==100)
+//	{
+//		printf("已经完成");
+//	}
+//	return 0;
+//}
+//自行简单结合一下循环，函数，数组
+int add(int x,int y,int z)
 {
-	int n = 0;
-	while (n < 100)
+	int t = 0;
+	t = x * y + z;
+	return t;
+}
+int main()
+{
+	int arr[3] = { 0,1,2};
+	scanf("%d %d %d", &arr[0],& arr[1], &arr[2]);
+	while(arr[0]<10)
 	{
-		printf("加油\n");
-		n++;
+		arr[0]++;
 	}
-	if (n == 100)
+	if (arr[0 == 10])
 	{
-		printf("成功");
+		int n = add(arr[0], arr[1], arr[2]);
+		printf("%d", n);
 	}
-	return 0; }
+
+
+	return 0;
+}
