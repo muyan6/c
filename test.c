@@ -170,26 +170,74 @@
 //	return 0;
 //}
 //自行简单结合一下循环，函数，数组
+//int add(int x,int y,int z)
+//{
+//	int t = 0;
+//	t = x * y + z;
+//	return t;
+//}
+//int main()
+//{
+//	int arr[3] = { 0,1,2};
+//	scanf("%d %d %d", &arr[0],& arr[1], &arr[2]);
+//	while(arr[0]<10)
+//	{
+//		arr[0]++;
+//	}
+//	if (arr[0]>=10)
+//	{
+//		int n = add(arr[0], arr[1], arr[2]);
+//		printf("%d", n);
+//	}
+//
+//
+//	return 0;
+//}
+//计算数组里的个数
+//int main()
+//{
+//	int arr[6] = { 0 };
+//	int cf = sizeof(arr) / sizeof(arr[0]);
+//	printf("%d", cf);
+//	return 0;
+//}
+//enum age
+//{
+//	er,
+//	san,
+//	si
+//};
+//int main()
+//{
+//	printf("%d", er);
+//
+//
+//	return 0;
+////}
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	int cf = sizeof(arr) / sizeof(arr[0]);
+//	printf("%d", cf);
+//	return 0;
+//}
 int add(int x,int y,int z)
 {
 	int t = 0;
-	t = x * y + z;
+	t = x + y + z;
 	return t;
 }
 int main()
 {
-	int arr[3] = { 0,1,2};
-	scanf("%d %d %d", &arr[0],& arr[1], &arr[2]);
-	while(arr[0]<10)
-	{
-		arr[0]++;
-	}
-	if (arr[0 == 10])
-	{
-		int n = add(arr[0], arr[1], arr[2]);
-		printf("%d", n);
-	}
-
+	int a = 0;
+	int b = 1;
+	int c = 0;
+	printf("请输入三个数字");
+	scanf("%d %d %d", &a, &b, &c);
+	if (a < 10)
+		a = 10;
+	int ji = add(a, b, c);
+	printf("%d", ji);
 
 	return 0;
 }
