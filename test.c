@@ -221,23 +221,75 @@
 //	printf("%d", cf);
 //	return 0;
 //}
-int add(int x,int y,int z)
-{
-	int t = 0;
-	t = x + y + z;
-	return t;
-}
+//int add(int x,int y,int z)
+//{
+//	int t = 0;
+//	t = x + y + z;
+//	return t;
+//}
+//int main()
+//{
+//	int a = 0;
+//	int b = 1;
+//	int c = 0;
+//	printf("请输入三个数字");
+//	scanf("%d %d %d", &a, &b, &c);
+//	if (a < 10)
+//		a = 10;
+//	int ji = add(a, b, c);
+//	printf("%d", ji);
+//
+//	return 0;
+//}
+//做点题目
+//int main()
+//{
+//	printf("v   v\n v v\n  v");
+//	printf("%d %d %d %d %d ", sizeof(int), sizeof(short),sizeof(char),sizeof(long),sizeof(long long));
+//	return 0;
+//}
+//打印小飞机
+//int main()
+//{
+//	printf("     **\n");
+//	printf("     **\n");
+//	printf("***********\n");
+//	printf("***********\n");
+//	printf("    *  *\n");
+//	printf("    *  *\n");
+//
+//
+//	return 0;
+//}
+//int main()
+//{
+//	printf("0%o 0X%x", 1234, 1234);
+//	return 0;
+//}
+//输入成绩
+//int main()
+//{
+//	int arr[3] = { 0,1,2 };
+//	scanf("%d %d %d", &arr[0], &arr[1], &arr[2]);
+//	printf("语文%d\n数学%d\n英语%d", arr[0], arr[1], arr[2]);
+//	return 0;
+//}
+//int main()
+//{
+//	char a ;
+//	scanf("%c",&a);
+//	printf("%c",a);
+//	printf(" %c", a);
+//	printf("%c", a);
+//	printf("%c",a);
+//	printf("%c", a);
+//
+//	
+//	return 0;
+//}
 int main()
 {
-	int a = 0;
-	int b = 1;
-	int c = 0;
-	printf("请输入三个数字");
-	scanf("%d %d %d", &a, &b, &c);
-	if (a < 10)
-		a = 10;
-	int ji = add(a, b, c);
-	printf("%d", ji);
-
+	char c=75;
+	printf("%c", c);
 	return 0;
 }
