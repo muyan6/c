@@ -287,9 +287,61 @@
 //	
 //	return 0;
 //}
+//int main()
+//{
+//	char c=75;
+//	printf("%c", c);
+//	return 0;
+//}.
+//int main()
+//{
+//	printf("%o %X",1234,1234);
+//	return 0;
+//}
+//int main()
+//{
+//	printf("请输入学号 各科成绩");
+//	int arr[] = { '1','2','3' };
+//	scanf("%d %d %d", &arr[0], &arr[1], &arr[2]);
+//	printf("The each subject score of No.%d is %d %d", arr[0], arr[1], arr[2]);
+//	return 0;
+//}
+//int main()
+//{
+//	char a=0;
+//	scanf("%c", &a);
+//	printf("    %c", a);
+//	printf("   %c %c\n", a,a);
+//	printf("%c %c %c %c\n", a,a,a,a);
+//
+//	return 0;
+//}
+//int main()
+//{
+//	int a = 0; int b = 0; int c = 0;
+//	scanf("%4d%2d%2d",&a,&b,&c);
+//	printf("year=%4dmonth=%0dei=%0d", a,b,c);
+//	return 0;
+//}
+//取余数
+//int main()
+//{
+//	int arr[4] = { 0 ,1};
+//	int c = 0;
+//	scanf("%4d", &c);
+//	arr[0] = c % 10;
+//	arr[1] = (c/10)%10;
+//	arr[2] = (c /100)%10;
+//	arr[3] = c / 1000;
+//	for (int i=0;i<4;i++)
+//	{
+//		printf("%d",arr[i]);
+//	}
+//	return 0;
+//}
+#define add(x,y) x+y
 int main()
 {
-	char c=75;
-	printf("%c", c);
+	printf("%d", add(2, 3));
 	return 0;
 }
